@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body
+    class="bg-darkBackground w-full grid place-items-center h-screen text-white"
+  >
+    <main
+      class="md:max-w-5xl md:h-96 max-w-lg md:flex-row-reverse flex flex-col place-items-center bg-card rounded-xl mt-8 mx-6"
+    >
+      <div class="h-full relative md:w-1/2 rounded-r-xl overflow-hidden">
+        <div class="absolute inset-0 bg-accent/70"></div>
+        <img
+          src="/images/image-header-mobile.jpg"
+          alt=""
+          srcset=""
+          class="w-full h-full object-cover object-center"
+        />
+      </div>
+      <div class="p-6 md:p-10 lg:p-16 text-center md:w-1/2">
+        <h1 class="text-3xl font-bold">
+          Get <span class="text-accent">insights</span> that help your business
+          grow.
+        </h1>
+        <p class="py-8 text-sm font-normal text-SlightlyTransparentWhite">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div
+          class="flex flex-col md:flex-row justify-between md:items-center gap-8"
+        >
+          <div class="flex flex-col justify-center items-center">
+            <h1 class="text-2xl font-semibold">10k+</h1>
+            <p
+              class="text-xs font-normal uppercase text-SlightlyTransparentWhite"
+            >
+              companies
+            </p>
+          </div>
+          <div class="flex flex-col justify-center items-center">
+            <h1 class="text-2xl font-semibold">314</h1>
+            <p
+              class="text-xs font-normal uppercase text-SlightlyTransparentWhite"
+            >
+              templates
+            </p>
+          </div>
+          <div class="flex flex-col justify-center items-center">
+            <h1 class="text-2xl font-semibold">12M+</h1>
+            <p
+              class="text-xs font-normal uppercase text-SlightlyTransparentWhite"
+            >
+              queries
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
